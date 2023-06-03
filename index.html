@@ -34,10 +34,10 @@
                         <nav class="menu">
                            <ul class="menu__list">
                               <li class="menu__list-item">
-                                 <a class="menu__list-link" href="#">О нас</a>
+                                 <a class="menu__list-link" href="#team">О нас</a>
                               </li>
                               <li class="menu__list-item">
-                                 <a class="menu__list-link" href="#">Инвестирование</a>
+                                 <a class="menu__list-link" href="#investing">Инвестирование</a>
                               </li>
                               <li class="menu__list-item">
                                  <a class="menu__list-link" href="#">Статьи</a>
@@ -293,7 +293,7 @@
             </div>
          </section>
 
-         <section class="variants">
+         <section class="variants" id="investing">
             <div class="container">
                <h5 class="variants__title">
                   Варианты инвестирования
@@ -449,7 +449,7 @@
             </div>
          </section>
 
-         <section class="team">
+         <section class="team" id="team">
             <div class="container">
                <div class="team__inner">
                   <div class="team__title-block">
@@ -506,22 +506,152 @@
             </div>
          </section>
 
-
-
          <section class="application">
-
+            <div class="container">
+               <div class="application__inner">
+                  <div class="application__title-block">
+                     <h5 class="application__title">
+                        оставьте <br> заявку
+                     </h5>
+                  </div>
+                  <div class="application__form-block">
+                     <form class="application__form" action="#">
+                        <div class="application__form-inner">
+                           <div class="application__form-item">
+                              <input class="application__input" type="text" name="name" autocomplete="off"
+                                 placeholder="Имя" required>
+                           </div>
+                           <div class="application__form-item">
+                              <input class="application__input" type="tel" name="phone" autocomplete="off"
+                                 placeholder="Телефон" required>
+                           </div>
+                           <div class="application__form-item">
+                              <textarea class="application__textarea" name="message" placeholder="Сообщение"></textarea>
+                           </div>
+                           <button class="application-form__btn" type="submit">
+                              Отправить
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
          </section>
-
-
 
       </main>
 
       <footer class="footer">
-         <div class="container">
-            <div class="footer__inner">
-
-
-
+         <div class="footer__wrapper">
+            <div class="footer__page">
+               <div class="container">
+                  <div class="footer__body">
+                     <div class="footer__mobile-box"></div>
+                     <div class="footer__inner">
+                        <a class="footer__logo" href="#" data-da=".footer__mobile-box,767,first">
+                           <img class="footer__logo-img" src="images/footer/footer-logo.svg" alt="логотип">
+                        </a>
+                        <div class="footer__navigation">
+                           <nav class="footer__menu">
+                              <ul class="footer-menu__list">
+                                 <li class="footer-menu__list-item">
+                                    <div class="footer__spoller block" data-spollers="525,max">
+                                       <button class="footer__spoller-title  block__title" data-spoller>
+                                          О нас
+                                          <img class="footer__spoller-img" src="images/footer/arrow-spoller.svg" alt="">
+                                       </button>
+                                       <div class="footer__spoller-body">
+                                          <!-- <a class="footer-menu__list-link" href="#">О нас</a> -->
+                                          <ul class="footer-menu__sub-list">
+                                             <li class="footer-menu__sub-item">
+                                                <a class="footer-menu__sub-link" href="#">
+                                                   Партнёры
+                                                </a>
+                                             </li>
+                                             <li class="footer-menu__sub-item">
+                                                <a class="footer-menu__sub-link" href="#">
+                                                   ГК Genesis
+                                                </a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <li class="footer-menu__list-item">
+                                    <div class="footer__spoller block" data-spollers="525,max">
+                                       <button class="footer__spoller-title  block__title" data-spoller>
+                                          Инвестирование
+                                          <img class="footer__spoller-img" src="images/footer/arrow-spoller.svg" alt="">
+                                       </button>
+                                       <div class="footer__spoller-body">
+                                          <!-- <a class="footer-menu__list-link" href="#">Инвестирование</a> -->
+                                          <ul class="footer-menu__sub-list">
+                                             <li class="footer-menu__sub-item">
+                                                <a class="footer-menu__sub-link" href="#">
+                                                   Готовый арендный бизнес
+                                                </a>
+                                             </li>
+                                             <li class="footer-menu__sub-item">
+                                                <a class="footer-menu__sub-link" href="#">
+                                                   Программа 18+
+                                                </a>
+                                             </li>
+                                             <li class="footer-menu__sub-item">
+                                                <a class="footer-menu__sub-link" href="#">
+                                                   Помещения свободного назначения
+                                                </a>
+                                             </li>
+                                             <li class="footer-menu__sub-item">
+                                                <a class="footer-menu__sub-link footer-menu__sub-link-management"
+                                                   href="#">
+                                                   Доверительное управление
+                                                </a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <li class="footer-menu__list-item">
+                                    <a class="footer-menu__list-link" href="#">Статьи</a>
+                                 </li>
+                                 <li class="footer-menu__list-item">
+                                    <a class="footer-menu__list-link" href="#">FAQ</a>
+                                 </li>
+                                 <li class="footer-menu__list-item">
+                                    <a class="footer-menu__list-link" href="#">Контакты</a>
+                                 </li>
+                              </ul>
+                           </nav>
+                        </div>
+                        <div class="footer__contacts" data-da=".footer__mobile-box,767,last">
+                           <ul class="footer__contacts-list">
+                              <li class="footer__contacts-item">
+                                 <a class="footer__contacts-link" href="#">
+                                    <svg class="footer__contacts-img" width="24" height="24" viewBox="0 0 24 24"
+                                       fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <rect width="24" height="24" fill="#111111" />
+                                       <path
+                                          d="M16.6853 18.7999L10.251 13.8741L11.7537 12.1253L8.55762 13.4996L7.31987 12.9219L15.9905 8.92286L11.8733 13.709L15.9517 16.829L18.0652 6.97729L6.43763 11.4048L7.6915 11.9983L6.64769 12.6109L3.60022 11.2937L19.6002 5.19992L16.6853 18.7999Z"
+                                          fill="white" />
+                                    </svg>
+                                 </a>
+                              </li>
+                              <li class="footer__contacts-item">
+                                 <a class="footer__contacts-link" href="tel:88000000000">
+                                    <svg class="footer__contacts-img" width="25" height="24" viewBox="0 0 25 24"
+                                       fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <rect x="0.125977" width="24" height="24" fill="#111111" />
+                                       <path
+                                          d="M12.8769 16.5201L14.9969 14.4001L18.4769 16.8401L17.3569 17.9601C17.0769 18.2401 16.6769 18.3601 16.2769 18.2401C15.0369 17.8801 12.1969 16.8801 9.91689 14.5601C7.43688 12.1201 6.43688 9.08009 6.15688 8.00009C6.07688 7.72009 6.15688 7.48009 6.35688 7.28009L7.63688 6.00009L10.0769 9.48009L9.47689 10.0801"
+                                          stroke="white" stroke-width="1.71068" stroke-miterlimit="16"
+                                          stroke-linecap="square" />
+                                    </svg>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </footer>
@@ -533,8 +663,8 @@
    <div class="popup__application" id="application">
       <form class="popup__application-form" action="#">
          <div class="popup__application-inner">
-            <div class="application__title-box">
-               <div class="application__title">
+            <div class="popup-application__title-box">
+               <div class="popup-application__title">
                   Заявка
                </div>
                <div class="application__sub-title">
