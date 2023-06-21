@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>GENESIS</title>
+   <title>GENESIS NEW</title>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
    <link rel="stylesheet" href="css/swiper-bundle.min.css">
    <link rel="stylesheet" href="css/style.min.css">
@@ -36,13 +36,13 @@
                                  <a class="menu__list-link" href="#investing">Инвестирование</a>
                               </li>
                               <li class="menu__list-item">
-                                 <a class="menu__list-link" href="#">Статьи</a>
+                                 <a class="menu__list-link" href="page-articles.html">Статьи</a>
                               </li>
                               <li class="menu__list-item">
-                                 <a class="menu__list-link" href="#">FAQ</a>
+                                 <a class="menu__list-link" href="page-faq.html">FAQ</a>
                               </li>
                               <li class="menu__list-item">
-                                 <a class="menu__list-link" href="#">Контакты</a>
+                                 <a class="menu__list-link" href="page-contacts.html">Контакты</a>
                               </li>
                               <li class="menu__list-item">
                                  <a class="menu__list-link" href="#">Главная</a>
@@ -418,7 +418,6 @@
                         </h5>
                         <a class="team__btn" href="#">
                            Перейти <br> на сайт
-                           <!-- <img class="team__btn-img" src="images/main/team-arrow.svg" alt=""> -->
                            <svg class="team__btn-img" width="67" height="68" viewBox="0 0 67 68" fill="none"
                               xmlns="http://www.w3.org/2000/svg">
                               <path d="M16.9731 50.4731L49.9731 17.4731" stroke="white" stroke-width="3.04335"
@@ -428,7 +427,6 @@
                               <path d="M16.0268 17.4736L23.2078 17.5172" stroke="white" stroke-width="3.04335"
                                  stroke-miterlimit="10" />
                            </svg>
-
                         </a>
                      </div>
                   </div>
@@ -518,7 +516,6 @@
                                           <img class="footer__spoller-img" src="images/footer/arrow-spoller.svg" alt="">
                                        </button>
                                        <div class="footer__spoller-body">
-                                          <!-- <a class="footer-menu__list-link" href="#">О нас</a> -->
                                           <ul class="footer-menu__sub-list">
                                              <li class="footer-menu__sub-item">
                                                 <a class="footer-menu__sub-link" href="#">
@@ -528,6 +525,11 @@
                                              <li class="footer-menu__sub-item">
                                                 <a class="footer-menu__sub-link" href="#">
                                                    ГК Genesis
+                                                </a>
+                                             </li>
+                                             <li class="footer-menu__sub-item">
+                                                <a class="footer-menu__sub-link" href="page-news.html">
+                                                   Новости
                                                 </a>
                                              </li>
                                           </ul>
@@ -541,7 +543,6 @@
                                           <img class="footer__spoller-img" src="images/footer/arrow-spoller.svg" alt="">
                                        </button>
                                        <div class="footer__spoller-body">
-                                          <!-- <a class="footer-menu__list-link" href="#">Инвестирование</a> -->
                                           <ul class="footer-menu__sub-list">
                                              <li class="footer-menu__sub-item">
                                                 <a class="footer-menu__sub-link" href="#">
@@ -560,7 +561,7 @@
                                              </li>
                                              <li class="footer-menu__sub-item">
                                                 <a class="footer-menu__sub-link footer-menu__sub-link-management"
-                                                   href="#">
+                                                   href="page-service.html">
                                                    Доверительное управление
                                                 </a>
                                              </li>
@@ -617,45 +618,6 @@
    </div>
 
 
-
-   <div class="popup__application" id="application">
-      <form class="popup__application-form" action="#">
-         <div class="popup__application-inner">
-            <div class="popup-application__title-box">
-               <div class="popup-application__title">
-                  Заявка
-               </div>
-               <div class="application__sub-title">
-                  Заполните форму и мы перезвоним
-                  и ответим на все интересующие вопросы
-               </div>
-            </div>
-            <div class="application__user-box">
-               <div class="user__item">
-                  <label for="formNameModal" class="application-form__label">Ваше имя:</label>
-                  <input id="formNameModal" type="text" name="name" class="application-form__input"
-                     placeholder="Иван Иванов" autocomplete="off" required>
-               </div>
-               <div class="user__item">
-                  <label for="formPhoneModal" class="application-form__label">Номер телефона:</label>
-                  <input id="formPhoneModal" type="tel" name="phone" class="application-form__input"
-                     placeholder="+7 (999) 999 99 99" autocomplete="off" required>
-               </div>
-            </div>
-            <div class="application__btn-box">
-               <a class="application__btn" data-fancybox data-src="#thanks" href="javascript:;">
-                  Отправить
-               </a>
-            </div>
-            <div class="application__description-box">
-               <p class="application__description">
-                  Нажимая на кнопку “Отправить”, вы даете согласие на обработку своих персональных данных
-               </p>
-            </div>
-         </div>
-      </form>
-   </div>
-
    <div class="popup__call-back" id="call-back">
       <form class="popup__call-back-form" action="#">
          <div class="popup__call-back-inner">
@@ -688,20 +650,7 @@
       </form>
    </div>
 
-   <div class="popup__thanks" id="thanks">
-      <form class="popup__thanks-form" action="#">
-         <div class="popup__thanks-inner">
-            <div class="popup__thanks-body">
-               <!-- <img class="popup__thanks-img" src="images/icons/thanks-icon.svg" alt=""> -->
-               <div class="popup__thanks-title">Сообщение отправлено!</div>
-               <div class="popup__thanks-text">
-                  Наши менеджеры скоро свяжутся
-                  с вами для уточнения деталей
-               </div>
-            </div>
-         </div>
-      </form>
-   </div>
+
 
 
 
